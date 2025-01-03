@@ -24,7 +24,7 @@ function newTask() {
         // increment to localStorage
         let values = JSON.parse(localStorage.getItem(localStorageKey) || "[]")
         values.push ({
-            name: input.values
+            name: input.value
         })
         localStorage.setItem(localStorageKey,JSON.stringify(values))
         showValues()
