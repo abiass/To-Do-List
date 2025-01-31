@@ -65,6 +65,7 @@ body{
     flex-direction: column;
     gap: 1rem;
     padding: 0;
+    
 }
 
 #to-do-list li{
@@ -93,4 +94,25 @@ body{
 
 #btn-ok:hover{
     background-color: var(--color-green2);
+}
+
+.content--history {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: absolute;
+    right: 6px;
+    top: 0px;
+    margin: 2rem;
+    background-color: var(--color-dark);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color-white);
+}
+
+#history-list li{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    opacity: 20%;
 }
