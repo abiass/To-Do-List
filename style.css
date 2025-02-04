@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    body {
+        gap: 2rem; /* Reduz o espaçamento em telas menores */
+    }
+}
+
 :root{
     --color-dark: rgb(14, 14, 14);
     --color-dark2: rgb(32, 32, 32);
@@ -41,7 +47,7 @@ body{
 }
 
 #input-new-task {
-    width: 20rem;
+    width: 15rem;
     border-radius: 1rem;
 }
 
@@ -100,7 +106,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0;
-    position: absolute;
+    position: block;
     right: 6px;
     top: 0px;
     margin: 2rem;
@@ -114,5 +120,5 @@ body{
     flex-direction: column;
     gap: 1rem;
     padding: 0;
-    opacity: 20%;
+    opacity: 35%;
 }

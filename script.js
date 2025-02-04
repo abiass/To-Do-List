@@ -1,5 +1,6 @@
 const localStorageKey = 'to-do-list';
 const historyKey = 'completed-tasks';
+const horas = new Date().getHours();
 
 function validateIfExistsNewTask() {
     let values = JSON.parse(localStorage.getItem(localStorageKey) || "[]");
